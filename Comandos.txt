@@ -1,0 +1,21 @@
+git init  crear repositotio
+git add  agrega archvos 
+git commit -m  "descripccion" guarda los cambios y va acompañado de una descripcci{on de la modfificacion
+git config --global establece la configuracion del usuario
+git status muestra la lista de archivos que se han cambiado
+
+git log archivo.ext Muestra los commits realizados con su respectivo ID
+git show archivo.ext Muestra las modificaciones que se ha realizado en un archivo 
+git diff commitA commitB Muestra la diferencias entre ambas versiones 
+
+git reset Nos ayuda a volver en el tiempo sin la posibilidad de que se vea en el historial(repositorio)
+git reset-hard Borra Todo *Mala práctica
+git reset -soft Vuelve a la versión  en cuestion pero respeta lo que hay en el area de staging
+git reset -Head Saca los archivos del area de staging
+
+git m Nos ayuda a eliminar ARCHIVOS de git sin eliminar su historial en el sistema de versiones
+git rm -cached Elimina los archivos del area de staging y del próximo commit pero los mantiene en el disco duro 
+
+git Branch Crea una rama
+git checkout Nos permite movernos entre ramas
+git  merge nos ayuda a mezclar ramas y crear una versión final
