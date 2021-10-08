@@ -19,3 +19,7 @@ git rm -cached Elimina los archivos del area de staging y del próximo commit pe
 git Branch Crea una rama
 git checkout Nos permite movernos entre ramas
 git  merge nos ayuda a mezclar ramas y crear una versión final
+
+git remote and origin
+git git push
+git pull Taer cambios y mezclar con el repositorio local
